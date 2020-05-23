@@ -1,0 +1,1833 @@
+html {
+  scroll-behavior: smooth;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+html ::-webkit-scrollbar {
+  width: 1.8%;
+}
+
+html ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 50px #020312;
+          box-shadow: inset 0 0 50px #020312;
+  background-color: #020312;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: #FCBF1E;
+  border-radius: 60% 20%;
+  -webkit-border-radius: 60% 20%;
+  -moz-border-radius: 60% 20%;
+  -ms-border-radius: 60% 20%;
+  -o-border-radius: 60% 20%;
+}
+
+html ::-webkit-scrollbar-thumb:hover {
+  background: #28204B;
+}
+
+body {
+  font-family: "Raleway", "Open Sans", " sans-serif";
+  overflow: hidden;
+}
+
+body .overlay-body, body header .overlay, body header .container a .overlay, body .about-me .container .my-photo .overlay, body .hire-me .container .overlay, body .portfolio .container .row .column div a .overlay, body footer .overlay {
+  background-color: rgba(18, 1, 54, 0.8);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+body .border-body, body .border-skills, body .my-skills .container .details-plus-progress .progress .parent .html .border, body .my-skills .container .details-plus-progress .progress .parent .css .border, body .my-skills .container .details-plus-progress .progress .parent .js .border, body .my-skills .container .details-plus-progress .progress .parent .jquery .border, body .my-skills .container .details-plus-progress .progress .parent .sass .border, body .my-skills .container .details-plus-progress .progress .parent .angular .border, body header .container .content .details .border, body .about-me .container .details .border, body .hire-me .container .border, body footer .container .border {
+  position: relative;
+  padding: 20px;
+  display: inline-block;
+}
+
+body .border-body h2, body .border-skills h2, body .my-skills .container .details-plus-progress .progress .parent .html .border h2, body .my-skills .container .details-plus-progress .progress .parent .css .border h2, body .my-skills .container .details-plus-progress .progress .parent .js .border h2, body .my-skills .container .details-plus-progress .progress .parent .jquery .border h2, body .my-skills .container .details-plus-progress .progress .parent .sass .border h2, body .my-skills .container .details-plus-progress .progress .parent .angular .border h2, body header .container .content .details .border h2, body .about-me .container .details .border h2, body .hire-me .container .border h2, body footer .container .border h2 {
+  color: #fff;
+  font-size: 30px;
+  display: inline;
+}
+
+body .border-body ul, body .border-skills ul, body .my-skills .container .details-plus-progress .progress .parent .html .border ul, body .my-skills .container .details-plus-progress .progress .parent .css .border ul, body .my-skills .container .details-plus-progress .progress .parent .js .border ul, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul, body header .container .content .details .border ul, body .about-me .container .details .border ul, body .hire-me .container .border ul, body footer .container .border ul {
+  list-style-type: none;
+  background-color: #120136;
+  padding: 0;
+}
+
+body .border-body ul li, body .border-skills ul li, body .my-skills .container .details-plus-progress .progress .parent .html .border ul li, body .my-skills .container .details-plus-progress .progress .parent .css .border ul li, body .my-skills .container .details-plus-progress .progress .parent .js .border ul li, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li, body header .container .content .details .border ul li, body .about-me .container .details .border ul li, body .hire-me .container .border ul li, body footer .container .border ul li {
+  padding: 0;
+}
+
+body .border-body ul li:first-child, body .border-skills ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:first-child, body header .container .content .details .border ul li:first-child, body .about-me .container .details .border ul li:first-child, body .hire-me .container .border ul li:first-child, body footer .container .border ul li:first-child {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 7%;
+  background-color: #fff;
+  -webkit-animation-name: border-t-l;
+          animation-name: border-t-l;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes border-t-l {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes border-t-l {
+  100% {
+    width: 100%;
+  }
+}
+
+body .border-body ul li:nth-child(2), body .border-skills ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:nth-child(2), body header .container .content .details .border ul li:nth-child(2), body .about-me .container .details .border ul li:nth-child(2), body .hire-me .container .border ul li:nth-child(2), body footer .container .border ul li:nth-child(2) {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 2%;
+  height: 0;
+  background-color: #fff;
+  -webkit-animation-name: border-t-r;
+          animation-name: border-t-r;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes border-t-r {
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes border-t-r {
+  100% {
+    height: 100%;
+  }
+}
+
+body .border-body ul li:nth-child(3), body .border-skills ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:nth-child(3), body header .container .content .details .border ul li:nth-child(3), body .about-me .container .details .border ul li:nth-child(3), body .hire-me .container .border ul li:nth-child(3), body footer .container .border ul li:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 7%;
+  background-color: #fff;
+  -webkit-animation-name: border-b-r;
+          animation-name: border-b-r;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes border-b-r {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes border-b-r {
+  100% {
+    width: 100%;
+  }
+}
+
+body .border-body ul li:nth-child(3):after, body .border-skills ul li:nth-child(3):after, body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:nth-child(3):after, body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:nth-child(3):after, body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:nth-child(3):after, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:nth-child(3):after, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:nth-child(3):after, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:nth-child(3):after, body header .container .content .details .border ul li:nth-child(3):after, body .about-me .container .details .border ul li:nth-child(3):after, body .hire-me .container .border ul li:nth-child(3):after, body footer .container .border ul li:nth-child(3):after {
+  border-style: solid;
+  border-width: .925rem .925rem 0 0;
+  border-color: #fff transparent;
+  content: "";
+  position: absolute;
+  left: 1rem;
+}
+
+body .border-body ul li:last-child, body .border-skills ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:last-child, body header .container .content .details .border ul li:last-child, body .about-me .container .details .border ul li:last-child, body .hire-me .container .border ul li:last-child, body footer .container .border ul li:last-child {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 2%;
+  height: 0%;
+  background-color: #fff;
+  -webkit-animation-name: border-b-l;
+          animation-name: border-b-l;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+}
+
+@-webkit-keyframes border-b-l {
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes border-b-l {
+  100% {
+    height: 100%;
+  }
+}
+
+body .border-skills, body .my-skills .container .details-plus-progress .progress .parent .html .border, body .my-skills .container .details-plus-progress .progress .parent .css .border, body .my-skills .container .details-plus-progress .progress .parent .js .border, body .my-skills .container .details-plus-progress .progress .parent .jquery .border, body .my-skills .container .details-plus-progress .progress .parent .sass .border, body .my-skills .container .details-plus-progress .progress .parent .angular .border {
+  text-transform: capitalize;
+  background-color: #120136;
+  z-index: 2;
+  top: -4rem;
+  right: 0;
+  position: absolute;
+  padding: 0px;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  transform: translate(50%, 50%);
+  -webkit-transform: translate(50%, 50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+}
+
+body .border-skills h2, body .my-skills .container .details-plus-progress .progress .parent .html .border h2, body .my-skills .container .details-plus-progress .progress .parent .css .border h2, body .my-skills .container .details-plus-progress .progress .parent .js .border h2, body .my-skills .container .details-plus-progress .progress .parent .jquery .border h2, body .my-skills .container .details-plus-progress .progress .parent .sass .border h2, body .my-skills .container .details-plus-progress .progress .parent .angular .border h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 10px;
+  margin: 0;
+  padding: 7px 0;
+}
+
+body .border-skills ul, body .my-skills .container .details-plus-progress .progress .parent .html .border ul, body .my-skills .container .details-plus-progress .progress .parent .css .border ul, body .my-skills .container .details-plus-progress .progress .parent .js .border ul, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+body .border-skills ul li, body .my-skills .container .details-plus-progress .progress .parent .html .border ul li, body .my-skills .container .details-plus-progress .progress .parent .css .border ul li, body .my-skills .container .details-plus-progress .progress .parent .js .border ul li, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li {
+  background-color: #fff;
+}
+
+body .border-skills ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:first-child, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:first-child {
+  height: 12%;
+}
+
+body .border-skills ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:nth-child(2), body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:nth-child(2) {
+  width: 10%;
+}
+
+body .border-skills ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:nth-child(3), body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:nth-child(3) {
+  height: 12%;
+}
+
+body .border-skills ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .html .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .css .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .js .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .jquery .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .sass .border ul li:last-child, body .my-skills .container .details-plus-progress .progress .parent .angular .border ul li:last-child {
+  width: 8%;
+}
+
+body .container-body, body header .navbar .container, body header .container, body .about-me .container, body .services .container, body .hire-me .container, body .my-skills .container, body .portfolio .container, body .counters .container, body .testimonials .container, body footer .container {
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #loading {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  z-index: 99999999999999999999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+body .sk-folding-cube {
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+body .sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+body .sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+body .sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
+}
+
+body .sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
+}
+
+body .sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
+}
+
+body .sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+body .sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+body .sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-foldCubeAngle {
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-foldCubeAngle {
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+body header {
+  background-image: url(../img/17898.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-position: right;
+}
+
+body header .navbar {
+  background-color: #fff;
+  z-index: 1;
+  color: #120136;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+  border-bottom: 1px solid rgba(184, 200, 210, 0.5);
+}
+
+body header .navbar .container .logo {
+  z-index: 9999;
+  height: 100%;
+  padding: 10px;
+  background-color: #120136;
+  margin: 0;
+  transform: translateY(80%);
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(80%);
+  -ms-transform: translateY(80%);
+  -o-transform: translateY(80%);
+}
+
+body header .navbar .container .logo h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0;
+  padding: 1px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+body header .navbar .container ul {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  width: 55%;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body header .navbar .container ul li:first-child {
+  color: rgba(0, 0, 0, 0.9);
+  border-top: 8px solid #FCBF1E;
+}
+
+body header .navbar .container ul li {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  transition: border 1s;
+  -webkit-transition: border 1s;
+  -moz-transition: border 1s;
+  -ms-transition: border 1s;
+  -o-transition: border 1s;
+  padding: 10px;
+  margin: 0;
+  border-top: 8px solid rgba(0, 0, 0, 0);
+}
+
+body header .navbar .container ul li a {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body header .navbar .container ul li:hover {
+  border-top: 8px solid #FCBF1E;
+}
+
+body header .navbar-small {
+  display: none;
+}
+
+body header .menu {
+  display: none;
+}
+
+body header .container {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body header .container .content {
+  margin: 0;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+body header .container .content .details ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+body header .container .content .details ul li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+body header .container .content .details ul li a svg {
+  color: #9e9e9e;
+}
+
+body header .container .content .details h1 {
+  color: #fff;
+  font-size: 56px;
+}
+
+body header .container {
+  z-index: 1;
+  position: relative;
+  bottom: -8%;
+}
+
+body header .container a {
+  position: relative;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+}
+
+body header .container a .overlay {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  cursor: pointer;
+}
+
+body header .container a:hover .overlay {
+  width: 0%;
+}
+
+body header .container a svg {
+  z-index: 9;
+  position: relative;
+  cursor: pointer;
+}
+
+body .about-me {
+  background-color: #020312;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .about-me h2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 60px;
+}
+
+body .about-me .container .my-photo {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+body .about-me .container .my-photo .img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  overflow: hidden;
+  width: 80%;
+  height: 70%;
+}
+
+body .about-me .container .my-photo .img img {
+  width: 100%;
+  height: 100%;
+}
+
+body .about-me .container .my-photo .overlay {
+  background-color: rgba(2, 3, 18, 0.5);
+}
+
+body .about-me .container .details {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 20px;
+}
+
+body .about-me .container .details .border {
+  padding: 0px;
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+body .about-me .container .details .border h2 {
+  font-size: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 15px;
+}
+
+body .about-me .container .details .border ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+body .about-me .container .details p {
+  color: #FCBF1E;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+body .about-me .container .details .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+body .about-me .container .details .info .info-first-column {
+  width: 50%;
+  border-right: 2px solid #fff;
+}
+
+body .about-me .container .details .info .info-first-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+body .about-me .container .details .info .info-first-column ul li {
+  padding: 8px 0;
+}
+
+body .about-me .container .details .info .info-first-column ul li:before {
+  content: '>';
+  color: #FCBF1E;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+body .about-me .container .details .info .info-second-column {
+  width: 50%;
+}
+
+body .about-me .container .details .info .info-second-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+body .about-me .container .details .info .info-second-column ul li {
+  padding: 5px 0;
+}
+
+body .about-me .container .details .info .info-second-column ul li:before {
+  content: '>';
+  color: #FCBF1E;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+body .about-me .container .details .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .about-me .container .details .social-media ul {
+  list-style-type: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 35px;
+  font-weight: bold;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+body .about-me .container .details .social-media ul li {
+  padding: 5px;
+  color: #fcbf1e;
+  position: relative;
+}
+
+body .about-me .container .details .social-media ul li a {
+  color: #fcbf1e;
+}
+
+body .about-me .container .details .social-media ul li a svg {
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+body .about-me .container .details .social-media .resume {
+  width: 20%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: 2px solid #FCBF1E;
+  padding: 15px;
+  margin: 45px 0;
+  border-radius: 15% 50%;
+  -webkit-border-radius: 15% 50%;
+  -moz-border-radius: 15% 50%;
+  -ms-border-radius: 15% 50%;
+  -o-border-radius: 15% 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+body .about-me .container .details .social-media .resume button {
+  color: #40BAD5;
+  background-color: #020312;
+  outline: none;
+  border: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+body .services {
+  background-color: #020312;
+}
+
+body .services .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .services .container h2 {
+  color: #fff;
+  display: inline;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 80px 0 40px 0;
+}
+
+body .services .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .services .container .row div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 33.333%;
+  padding: 40px 20px 40px 0;
+}
+
+body .services .container .row div svg {
+  color: #CD5B46;
+  font-size: 50px;
+}
+
+body .services .container .row div h4 {
+  color: #fff;
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+body .services .container .row div p {
+  color: #42434E;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+  white-space: 20;
+}
+
+body .services .container .row div span {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+body .hire-me {
+  background-color: #020312;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .hire-me .container {
+  background-image: url(../img/18699.jpg);
+  background-size: cover;
+  height: 40%;
+  position: relative;
+}
+
+body .hire-me .container .border {
+  z-index: 2;
+  text-transform: capitalize;
+  background-color: #F26C4F;
+  top: 85%;
+  left: 40%;
+  position: absolute;
+  padding: 0px;
+  width: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  transform: translate(50%, 50%);
+  -webkit-transform: translate(50%, 50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+}
+
+body .hire-me .container .border h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 14px;
+  margin: 0;
+  padding: 15px;
+}
+
+body .hire-me .container .border ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+body .hire-me .container .border ul li {
+  background-color: #F26C4F;
+}
+
+body .hire-me .container .overlay {
+  background-color: rgba(18, 1, 54, 0.5);
+}
+
+body .my-skills {
+  background-color: #020312;
+}
+
+body .my-skills .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .my-skills .container h2 {
+  color: #fff;
+  display: inline;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+body .my-skills .container .details-plus-progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .my-skills .container .details-plus-progress .details {
+  width: 50%;
+}
+
+body .my-skills .container .details-plus-progress .details h3 {
+  color: #fff;
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body .my-skills .container .details-plus-progress .details p {
+  color: #42434E;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+body .my-skills .container .details-plus-progress .details .resume {
+  width: 25%;
+  border: 2px solid #FCBF1E;
+  padding: 15px;
+  margin: 45px 0;
+  border-radius: 15% 50%;
+  -webkit-border-radius: 15% 50%;
+  -moz-border-radius: 15% 50%;
+  -ms-border-radius: 15% 50%;
+  -o-border-radius: 15% 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+body .my-skills .container .details-plus-progress .details .resume button {
+  color: #40BAD5;
+  background-color: #020312;
+  outline: none;
+  border: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+body .my-skills .container .details-plus-progress .progress {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .my-skills .container .details-plus-progress .progress .parent {
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: #020312;
+}
+
+body .my-skills .container .details-plus-progress .progress .parent h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 10px;
+}
+
+body .my-skills .container .details-plus-progress .progress .parent .html {
+  background-color: #F26C4F;
+  width: 0%;
+  height: .2rem;
+  position: relative;
+  margin-bottom: 5px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+body .my-skills .container .details-plus-progress .progress .parent .css {
+  background-color: #F26C4F;
+  width: 0%;
+  height: .2rem;
+  position: relative;
+  margin-bottom: 5px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+body .my-skills .container .details-plus-progress .progress .parent .js {
+  background-color: #F26C4F;
+  width: 0%;
+  height: .2rem;
+  position: relative;
+  margin-bottom: 5px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+body .my-skills .container .details-plus-progress .progress .parent .jquery {
+  background-color: #F26C4F;
+  width: 0%;
+  height: .2rem;
+  position: relative;
+  margin-bottom: 5px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+body .my-skills .container .details-plus-progress .progress .parent .sass {
+  background-color: #F26C4F;
+  width: 0%;
+  height: .2rem;
+  position: relative;
+  margin-bottom: 5px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+body .my-skills .container .details-plus-progress .progress .parent .angular {
+  background-color: #F26C4F;
+  width: 0%;
+  height: .2rem;
+  position: relative;
+  margin-bottom: 5px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+body .portfolio {
+  background-color: #020312;
+}
+
+body .portfolio .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .portfolio .container h2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 60px 20px;
+}
+
+body .portfolio .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .portfolio .container .row .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  margin: 20px;
+}
+
+body .portfolio .container .row .column div {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  position: relative;
+  background-position: top;
+}
+
+body .portfolio .container .row .column div img {
+  transition: 2s;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+  width: 100%;
+  height: 100%;
+  background-position: top;
+}
+
+body .portfolio .container .row .column div a .overlay {
+  background-color: rgba(18, 17, 30, 0.8);
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .portfolio .container .row .column div a .overlay span {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: #120136;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20% 15%;
+  -webkit-border-radius: 20% 15%;
+  -moz-border-radius: 20% 15%;
+  -ms-border-radius: 20% 15%;
+  -o-border-radius: 20% 15%;
+  z-index: 999999;
+  font-weight: bold;
+}
+
+body .portfolio .container .row .column div:hover img {
+  transform: rotate(10deg) scale(1.5);
+  -webkit-transform: rotate(10deg) scale(1.5);
+  -moz-transform: rotate(10deg) scale(1.5);
+  -ms-transform: rotate(10deg) scale(1.5);
+  -o-transform: rotate(10deg) scale(1.5);
+}
+
+body .portfolio .container .row .column:first-child div .overlay {
+  height: 100%;
+  width: 0%;
+}
+
+body .portfolio .container .row .column:first-child div:hover .overlay {
+  width: 100%;
+}
+
+body .portfolio .container .row .column:nth-child(2) div .overlay {
+  height: 0%;
+  width: 100%;
+}
+
+body .portfolio .container .row .column:nth-child(2) div:hover .overlay {
+  height: 100%;
+}
+
+body .portfolio .container .row .column:nth-child(3) div .overlay {
+  height: 100%;
+  width: 0%;
+}
+
+body .portfolio .container .row .column:nth-child(3) div:hover .overlay {
+  width: 100%;
+}
+
+body .portfolio .container .row .column:last-child div .overlay {
+  height: 0%;
+  width: 100%;
+}
+
+body .portfolio .container .row .column:last-child div:hover .overlay {
+  height: 100%;
+}
+
+body .counters {
+  background-image: url(../img/bg-man-sitting.jpg);
+  height: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .counters .container {
+  background-size: cover;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .counters .container div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25%;
+}
+
+body .counters .container div span {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #f26c4f;
+  font-weight: bold;
+  font-size: 60px;
+  padding: 40px;
+  font-family: "Raleway", "Open Sans", " sans-serif";
+}
+
+body .counters .container div h5 {
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+body .testimonials {
+  overflow: hidden;
+  background-color: #020312;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: capitalize;
+}
+
+body .testimonials h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .testimonials .container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+body .testimonials .container .swiper-container {
+  margin: 0 -250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .testimonials .container .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+body .testimonials .container .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background-color: #007aff;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper .swiper-slide {
+  padding: 10px;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper .swiper-slide .quote {
+  width: 16%;
+  height: 3rem;
+  z-index: 999;
+  color: #fff;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #f26c4f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper .swiper-slide .quote svg {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper .swiper-slide p {
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  line-height: 1.5;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper .swiper-slide .img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100px;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper .swiper-slide .img img {
+  width: 100%;
+  height: 100%;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper .swiper-slide h5 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 23px;
+  margin: 15px;
+}
+
+body .testimonials .container .swiper-container .swiper-wrapper .swiper-slide span {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #4F505A;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px;
+}
+
+body .testimonials .container .company {
+  margin: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .testimonials .container .company .img {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .testimonials .container .company .img img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body footer {
+  background-image: url(../img/apple-clean-containers-205316.jpg);
+  background-size: cover;
+  background-position: left;
+  height: auto;
+  position: relative;
+  background-color: #020312;
+}
+
+body footer .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer .container .border {
+  z-index: 99999;
+  margin: 100px 0;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 0px;
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer .container .border h2 {
+  text-transform: capitalize;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body footer .container .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  z-index: 99999;
+  margin: 70px 0;
+}
+
+body footer .container .data div {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer .container .data div svg {
+  font-size: 50px;
+  color: #f26c4f;
+}
+
+body footer .container .data div h5 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+body footer .container .data div span {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  font-size: 18px;
+  z-index: 1;
+  font-family: " sans-serif", "Open Sans";
+}
+
+body footer .container .social-form {
+  z-index: 9999;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body footer .container .social-form .social {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer .container .social-form .social h5 {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+body footer .container .social-form .social .icons {
+  width: 100%;
+}
+
+body footer .container .social-form .social .icons div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 10px 0;
+}
+
+body footer .container .social-form .social .icons div span:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 19px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+body footer .container .social-form .social .icons div span:first-child svg {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body footer .container .social-form .social .icons div span:last-child {
+  margin: 15px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+body footer .container .social-form .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: inline;
+  width: 100%;
+}
+
+body footer .container .social-form .form h5 {
+  text-transform: capitalize;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  margin: 15px 0;
+}
+
+body footer .container .social-form .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer .container .social-form .form form div {
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+body footer .container .social-form .form form div label {
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+body footer .container .social-form .form form div input,
+body footer .container .social-form .form form div textarea {
+  background-color: rgba(255, 255, 255, 0.15);
+  height: 2.5rem;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+body footer .container .social-form .form form div ::-webkit-input-placeholder {
+  color: #87878E;
+  font-size: 17px;
+}
+
+body footer .container .social-form .form form div :-ms-input-placeholder {
+  color: #87878E;
+  font-size: 17px;
+}
+
+body footer .container .social-form .form form div ::-ms-input-placeholder {
+  color: #87878E;
+  font-size: 17px;
+}
+
+body footer .container .social-form .form form div ::placeholder {
+  color: #87878E;
+  font-size: 17px;
+}
+
+body footer .container .social-form .form form div textarea {
+  height: 10rem;
+}
+
+body footer .container .social-form .form form .name-subject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+}
+
+body footer .container .social-form .form button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: block;
+  width: 29%;
+  float: right;
+  padding: 15px 0;
+  background-color: #f26c4f;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+body footer .container .social-form .form button svg {
+  margin: 0 15px;
+}
+
+body footer .overlay {
+  background-color: rgba(18, 17, 30, 0.8);
+}
+
+body .map {
+  width: 100%;
+  background-color: #120136;
+}
+
+body .map iframe {
+  width: 100%;
+}
+
+body .right {
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .right span {
+  color: #4F505A;
+  font-size: 18px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
