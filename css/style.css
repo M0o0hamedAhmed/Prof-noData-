@@ -891,17 +891,18 @@ body .hire-me {
 }
 
 body .hire-me .container {
-  background-image: url(../img/18699.jpg);
+  background-image: url(../img/project-4-min.jpg);
   background-size: cover;
-  height: 40%;
+  height: 50vh;
   position: relative;
+  background-position: center;
 }
 
 body .hire-me .container .border {
   z-index: 2;
   text-transform: capitalize;
   background-color: #F26C4F;
-  top: 85%;
+  top: 88%;
   left: 40%;
   position: absolute;
   padding: 0px;
@@ -1287,6 +1288,7 @@ body .counters {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-position: center;
 }
 
 body .counters .container {
@@ -1520,12 +1522,13 @@ body .testimonials .container .company .img img {
 }
 
 body footer {
-  background-image: url(../img/apple-clean-containers-205316.jpg);
+  background-image: url(../img/apple-clean-containers-205316-min.jpg);
   background-size: cover;
-  background-position: left;
+  background-position: center;
   height: auto;
   position: relative;
   background-color: #020312;
+  background-position: right;
 }
 
 body footer .container {

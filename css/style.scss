@@ -513,7 +513,7 @@ body {
                 }
                 .overlay {
                     @extend .overlay-body;
-                    background-color: rgba(2, 3, 18, .5);
+                    background-color: rgba(2, 3, 18, 0.5);
                 }
             }
             .details {
@@ -720,16 +720,17 @@ body {
         display: flex;
         .container {
             @extend .container-body;
-            background-image: url(../img/18699.jpg);
+            background-image: url(../img/project-4-min.jpg);
             background-size: cover;
-            height: 40%;
+            height: 50vh;
             position: relative;
+            background-position: center;
             .border {
                 @extend .border-body;
                 z-index: 2;
                 text-transform: capitalize;
                 background-color: #F26C4F;
-                top: 85%;
+                top: 88%;
                 left: 40%;
                 position: absolute;
                 padding: 0px;
@@ -1031,6 +1032,7 @@ body {
         height: 600px;
         width: 100%;
         display: flex;
+        background-position: center;
         .container {
             @extend .container-body;
             background-size: cover;
@@ -1177,12 +1179,13 @@ body {
         }
     }
     footer {
-        background-image: url(../img/apple-clean-containers-205316.jpg);
+        background-image: url(../img/apple-clean-containers-205316-min.jpg);
         background-size: cover;
-        background-position: left;
+        background-position: center;
         height: auto;
         position: relative;
         background-color: #020312;
+        background-position: right;
         .container {
             @extend .container-body;
             flex-direction: column;
